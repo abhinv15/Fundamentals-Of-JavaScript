@@ -33,3 +33,14 @@ console.log("apple" == "apple")
 //*SECTION 5:Inequality Operators
 console.log(10 != 20)             //!= or !== checks for value inequality, it returns either true or false
 console.log("apple" != "banana") //it checks whether the two values are not equal, it returns either true or false
+
+
+//*SECTION 6:Logical Operators
+let isBatteryOn = true; 
+let isSwitchOn = true;
+console.log(isBattertOn && isSwitchOn);    // Logical AND: true if both conditions are true
+
+let isPowerOn = false;
+console.log(isBattertOn || isPowerOn);     // Logical OR: true if at least one condition is true
+
+console.log(!isPowerOn);                   // Logical NOT: negates the value, so !false is true
